@@ -1,0 +1,75 @@
+# Visual Studio 2015用户特定文件
+.vs/
+
+# 编译的目标文件
+*.slo
+*.lo
+*.o
+*.obj
+
+# 预编译头
+*.gch
+*.pch
+
+# 编译的动态库
+*.so
+*.dylib
+*.dll
+
+# Fortran模块文件
+*.mod
+
+# 编译的静态库
+*.lai
+*.la
+*.a
+*.lib
+
+# 可执行文件
+*.exe
+*.out
+*.app
+*.ipa
+
+# 这些项目文件可以由引擎生成
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.htm
+
+# 预编译的资产
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# 二进制文件
+Binaries/*
+Plugins/**/Binaries/*
+
+# 构建
+Build/*
+
+# 白名单PakBlacklist-<BuildConfiguration>.txt文件
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+
+# 不要忽略Build中的图标文件
+!Build/**/*.ico
+
+# 地图构建数据
+*_BuiltData.uasset
+
+# 由编辑器生成的配置文件
+Saved/*
+
+# 已编译的源文件供引擎使用
+Intermediate/*
+Plugins/**/Intermediate/*
+
+# 缓存文件以供编辑器使用
+DerivedDataCache/*
