@@ -2,7 +2,10 @@
 <project version="4">
   <component name="UserContentModel">
     <attachedFolders />
-    <explicitIncludes />
+    <explicitIncludes>
+      <Path>Source/AuraMaster/Private/UI/HUD/AuraHUD.cpp</Path>
+      <Path>Source/AuraMaster/Public/UI/HUD/AuraHUD.h</Path>
+    </explicitIncludes>
     <explicitExcludes />
   </component>
 </project>
