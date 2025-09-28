@@ -73,6 +73,3 @@ Plugins/**/Intermediate/*
 
 # 缓存文件以供编辑器使用
 DerivedDataCache/*
-
-# 忽略Content中的Asset
-Content/Assets/*
